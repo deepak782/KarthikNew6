@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll"
+    android:background="@drawable/press_color">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/c_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_11"
+        android:scaleType="centerCrop"
+        android:padding="12dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+        />
+
+    <TextView
+        android:id="@+id/c_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:text="Country name"
+        android:gravity="center"/>
+
+</LinearLayout>
